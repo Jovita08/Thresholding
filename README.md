@@ -1,5 +1,5 @@
 ## Ex no: 9
-## Date: 20/5/2022
+
 # <p align="center">Thresholding
 
 ## Aim
@@ -34,7 +34,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the Image and convert to grayscale
-image=cv2.imread("paris.jpg")
+image=cv2.imread("aes.jpg")
 plt.imshow(image)
 plt.title('original image')
 plt.axis('off')
@@ -77,26 +77,21 @@ for i in range(0,9):
 ## OUTPUT:
 
 ### Original Image and Grayscale Image
-![Capture22](https://user-images.githubusercontent.com/75234588/169644500-8d48e1f6-733b-4236-83a3-cb42f86d3fda.PNG)
-
-
+![Capture22](1.png)
 
 ### Global Thresholding
-![Capture23](https://user-images.githubusercontent.com/75234588/169644502-041ad05b-928f-4bcb-9c11-4215a3cde30b.PNG)
-
-
+![Capture23](2.png)
+![Capture23](3.png)
+![Capture23](4.png)
+![Capture23](5.png)
+![Capture23](6.png)
 
 ### Adaptive Thresholding
-![Capture24](https://user-images.githubusercontent.com/75234588/169644506-1d6dbfe9-cd15-4506-ac43-a2e779771a6e.PNG)
-
-
+![Capture24](8.png)
+![Capture23](9.png)
 
 ### Optimum Global Thesholding using Otsu's Method
-![Capture25](https://user-images.githubusercontent.com/75234588/169644509-9f29021d-1e90-4f05-8d38-7098897f3743.PNG)
-
-
-
-
+![Capture25](7.png)
 
 ## RESULT:
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
